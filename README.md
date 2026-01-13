@@ -26,17 +26,6 @@ Instead of training a model from scratch, we did transfer learning by:
 
 This approach significantly reduces training time and typically yields better results, especially when working with limited data.
 
-## Project Structure
-
-```
-├── main.ipynb              # Initial exploration and baseline predictions
-├── fine_tune.ipynb         # Fine-tuning the pretrained model
-├── fine_tune_predict.ipynb # Predictions using the fine-tuned model
-├── finetuned/              # Saved fine-tuned model weights
-├── train_labels.csv        # Training data labels
-├── submission.csv          # Predictions output
-└── sample_submission.csv   # Sample submission format
-```
 
 ## Tech Stack
 
